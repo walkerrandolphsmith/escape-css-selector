@@ -1,10 +1,10 @@
 {
   "name": "@walkerrandolphsmith/escape-css-selector",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Escape css selectors of special characters",
   "main": "escape-css-filter.js",
   "scripts": {
-    "build": "babel src --ignore *.spec.js -d ./dist",
+    "build": "babel ./src/escape-css-selector.js --out-file index.js",
     "test": "find ./src -name '*.spec.js' | xargs mocha --compilers js:babel-core/register"
   },
   "repository": {
